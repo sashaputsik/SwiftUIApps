@@ -56,12 +56,8 @@
 		9FE26B1C25A2552D00796CA8 /* News */ = {
 			isa = PBXGroup;
 			children = (
-				9FE26B1D25A2552D00796CA8 /* AppDelegate.swift */,
-				9FE26B1F25A2552D00796CA8 /* SceneDelegate.swift */,
-				9FE26B2125A2552D00796CA8 /* ContentView.swift */,
-				9FE26B2325A2553000796CA8 /* Assets.xcassets */,
-				9FE26B2825A2553000796CA8 /* LaunchScreen.storyboard */,
-				9FE26B2B25A2553000796CA8 /* Info.plist */,
+				9FE26B3225A255ED00796CA8 /* AppFiles */,
+				9FE26B3425A2561200796CA8 /* New Group */,
 				9FE26B2525A2553000796CA8 /* Preview Content */,
 			);
 			path = News;
@@ -73,6 +69,26 @@
 				9FE26B2625A2553000796CA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FE26B3225A255ED00796CA8 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9FE26B1D25A2552D00796CA8 /* AppDelegate.swift */,
+				9FE26B1F25A2552D00796CA8 /* SceneDelegate.swift */,
+				9FE26B2325A2553000796CA8 /* Assets.xcassets */,
+				9FE26B2825A2553000796CA8 /* LaunchScreen.storyboard */,
+				9FE26B2B25A2553000796CA8 /* Info.plist */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		9FE26B3425A2561200796CA8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9FE26B2125A2552D00796CA8 /* ContentView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +306,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"News/Preview Content\"";
 				DEVELOPMENT_TEAM = W64W8UKVB6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = News/Info.plist;
+				INFOPLIST_FILE = News/AppFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +327,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"News/Preview Content\"";
 				DEVELOPMENT_TEAM = W64W8UKVB6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = News/Info.plist;
+				INFOPLIST_FILE = News/AppFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
