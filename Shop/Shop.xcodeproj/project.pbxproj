@@ -11,6 +11,7 @@
 		9F1F064425A5F0BD00A38B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F064325A5F0BD00A38B9F /* ContentView.swift */; };
 		9F1F064625A5F0C000A38B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F064525A5F0C000A38B9F /* Assets.xcassets */; };
 		9F1F064925A5F0C000A38B9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F064825A5F0C000A38B9F /* Preview Assets.xcassets */; };
+		9F1F065225A5F12F00A38B9F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F065125A5F12F00A38B9F /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9F1F064525A5F0C000A38B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1F064825A5F0C000A38B9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F1F064A25A5F0C000A38B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1F065125A5F12F00A38B9F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				9F1F064125A5F0BD00A38B9F /* ShopApp.swift */,
 				9F1F064325A5F0BD00A38B9F /* ContentView.swift */,
+				9F1F065125A5F12F00A38B9F /* Model.swift */,
 				9F1F064525A5F0C000A38B9F /* Assets.xcassets */,
 				9F1F064A25A5F0C000A38B9F /* Info.plist */,
 				9F1F064725A5F0C000A38B9F /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1F065225A5F12F00A38B9F /* Model.swift in Sources */,
 				9F1F064425A5F0BD00A38B9F /* ContentView.swift in Sources */,
 				9F1F064225A5F0BD00A38B9F /* ShopApp.swift in Sources */,
 			);
