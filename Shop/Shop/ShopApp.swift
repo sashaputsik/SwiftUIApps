@@ -2,7 +2,7 @@
 //  ShopApp.swift
 //  Shop
 //
-//  Created by Sasha Putsikovich on 04.01.2021.
+//  Created by Sasha Putsikovich on 06.01.2021.
 //
 
 import SwiftUI
@@ -11,8 +11,7 @@ import SwiftUI
 struct ShopApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(products: Product.initProducts())
+            ContentView()
         }
     }
 }
-//dfhdghdfhfsadfasdf
